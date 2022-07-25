@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{49211BFD-15AA-4385-837A-90966459799D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentConfirmation", "PaymentConfirmation", "{A19C25E2-7AB7-4835-BD29-E489FCAB0E41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClubMember.PaymentConfirmation.Infrastructure", "ClubMember.PaymentConfirmation.Infrastructure\ClubMember.PaymentConfirmation.Infrastructure.csproj", "{7510CE88-E268-4BEE-B00C-C65027D85815}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClubMember.PaymentConfirmation.Application", "ClubMember.PaymentConfirmation.Application\ClubMember.PaymentConfirmation.Application.csproj", "{CE2C02E9-42C7-4BEB-A38F-04AEC8486223}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClubMember.PaymentConfirmation.Domain", "ClubMember.PaymentConfirmation.Domain\ClubMember.PaymentConfirmation.Domain.csproj", "{667EA17C-BB5E-4CD0-8A49-4087391635DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{049D3B33-5A69-4437-9CE7-8C84296AD867}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentConfirmation.API", "PaymentConfirmation.API\PaymentConfirmation.API.csproj", "{4697D042-E54E-48C2-BED2-115B04905627}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ResendPaymentConfirmation", "ResendPaymentConfirmation", "{765BB1FE-1A3E-402D-B791-5C0FCE6379D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClubMember.ResendPaymentConfirmation.Application", "ClubMember.ResendPaymentConfirmation.Application\ClubMember.ResendPaymentConfirmation.Application.csproj", "{14B14CDD-7327-4838-8A47-F18558021C49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClubMember.ResendPaymentConfirmation.WorkerService", "ClubMember.ResendPaymentConfirmation.WorkerService\ClubMember.ResendPaymentConfirmation.WorkerService.csproj", "{EBC444CA-A624-4D98-8945-EA3C2D699E4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7510CE88-E268-4BEE-B00C-C65027D85815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7510CE88-E268-4BEE-B00C-C65027D85815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7510CE88-E268-4BEE-B00C-C65027D85815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7510CE88-E268-4BEE-B00C-C65027D85815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2C02E9-42C7-4BEB-A38F-04AEC8486223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2C02E9-42C7-4BEB-A38F-04AEC8486223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2C02E9-42C7-4BEB-A38F-04AEC8486223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2C02E9-42C7-4BEB-A38F-04AEC8486223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667EA17C-BB5E-4CD0-8A49-4087391635DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667EA17C-BB5E-4CD0-8A49-4087391635DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667EA17C-BB5E-4CD0-8A49-4087391635DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667EA17C-BB5E-4CD0-8A49-4087391635DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4697D042-E54E-48C2-BED2-115B04905627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4697D042-E54E-48C2-BED2-115B04905627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4697D042-E54E-48C2-BED2-115B04905627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4697D042-E54E-48C2-BED2-115B04905627}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B14CDD-7327-4838-8A47-F18558021C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B14CDD-7327-4838-8A47-F18558021C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B14CDD-7327-4838-8A47-F18558021C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B14CDD-7327-4838-8A47-F18558021C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC444CA-A624-4D98-8945-EA3C2D699E4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC444CA-A624-4D98-8945-EA3C2D699E4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC444CA-A624-4D98-8945-EA3C2D699E4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC444CA-A624-4D98-8945-EA3C2D699E4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A19C25E2-7AB7-4835-BD29-E489FCAB0E41} = {49211BFD-15AA-4385-837A-90966459799D}
+		{7510CE88-E268-4BEE-B00C-C65027D85815} = {A19C25E2-7AB7-4835-BD29-E489FCAB0E41}
+		{CE2C02E9-42C7-4BEB-A38F-04AEC8486223} = {A19C25E2-7AB7-4835-BD29-E489FCAB0E41}
+		{667EA17C-BB5E-4CD0-8A49-4087391635DB} = {A19C25E2-7AB7-4835-BD29-E489FCAB0E41}
+		{4697D042-E54E-48C2-BED2-115B04905627} = {049D3B33-5A69-4437-9CE7-8C84296AD867}
+		{765BB1FE-1A3E-402D-B791-5C0FCE6379D9} = {49211BFD-15AA-4385-837A-90966459799D}
+		{14B14CDD-7327-4838-8A47-F18558021C49} = {765BB1FE-1A3E-402D-B791-5C0FCE6379D9}
+		{EBC444CA-A624-4D98-8945-EA3C2D699E4B} = {765BB1FE-1A3E-402D-B791-5C0FCE6379D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F58A6FF-AF00-4CB5-A9D9-842B107D5426}
+	EndGlobalSection
+EndGlobal
